@@ -23,16 +23,15 @@ Giải thích:
 
 **4. git commit**
 
-- đóng gói những thay đổi (màu xanh lá cây) mà bạn đã `git add` thành 1 `object` và dán cho nó 1 `label`
+- đóng gói những thay đổi (màu xanh lá cây) mà bạn đã `git add` thành 1 `object` và dán cho nó 1 `id`
 - sử dụng tham số `-m` để note lại commit này đã làm gì nhằm mục đích cho mình cũng như ng khác hiểu mình đã commit cái gì.
-![](imgs/git-commit.png)
-  Trong đó:
-    - `727f355`: commit id
-    - 2 file changed, 17 insertion+: 2 file đã thay đổi, trong đó có 17 thêm mới
+  ![](imgs/git-commit.png)
+  Trong đó: - `727f355`: commit id - 2 file changed, 17 insertion+: 2 file đã thay đổi, trong đó có 17 thêm mới
 - Nếu cài git lần đầu, bạn sẽ chưa đc commit mà sẽ nhận được thông báo có dạng như sau:
-![](imgs/first-git-notify.png)
+  ![](imgs/first-git-notify.png)
 
 => hãy thực hiện cấu hình:
+
 ```
 git config --global user.name "<your_username_here>"
 git config --global user.email "<your_gmail_here>"
@@ -40,6 +39,5 @@ git config --list
 ```
 
 - check lại bằng `git status`:
-![](imgs/git-status(2).png)
+  ![](<imgs/git-status(2).png>)
   - working tree clean: mình sẽ giải thích trong bài học sau.
-
