@@ -3,6 +3,7 @@
 **1. Working dir**
 
 - chính là thư mục làm việc
+- khi file ở trạng thái `new file`, để quay lại các thay đổi trc: `git rm --cached <file>`
 - khi file ở trạng thái `modified`, để quay lại các thay đổi trc: `git restore <file>` hoặc `git checkout -- <file>`
 
 **2. Staging area**
