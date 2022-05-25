@@ -5,7 +5,7 @@
 
 **2. git status**
 
-- tracking project
+- tracking thay đổi của các file project
   ![](imgs/git-status.png)
 
 Giải thích:
