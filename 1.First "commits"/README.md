@@ -36,5 +36,10 @@ Giải thích:
 ```
 git config --global user.name "<your_username_here>"
 git config --global user.email "<your_gmail_here>"
+git config --list
 ```
-- Kiểm tra lại cấu hình: `git config --list`
+
+- check lại bằng `git status`:
+![](imgs/git-status(2).png)
+  - working tree clean: mình sẽ giải thích trong bài học sau.
+
