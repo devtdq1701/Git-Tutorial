@@ -1,0 +1,2 @@
+- Mục đích là bỏ qua 1 số file không muốn commit (không hiển thị khi git status)
+- Trong file chứa đường dẫn tới những file (folder) cần bỏ qua
