@@ -13,4 +13,10 @@ When will conflicts happen?
   2. Resolve conflict
   3. Commit and push
 
-## Resolve conflict sử dụng
+## Resolve conflict sử dụng rebase
+
+VD: ô A và B code trên 2 feature branch khác nhau nhưng lại cùng chỉnh sửa 1 file trên cùng 1 số dòng. Sau đó có 2 pull request đồng thời mở. 1 pull request được merge trc và pull request sau sẽ xảy ra hiện tượng conflict
+![](imgs/conflict-1.png) ![](imgs/conflict-2.png) ![](imgs/conflict-3.png)
+
+- quy tắc: conflict trên branch nào thì chủ branch đó sẽ đi fix (trong ví dụ này là `feature/resolve-using-rebase-2`).
+- checkout sang feature/resolve-using-rebase-2:
