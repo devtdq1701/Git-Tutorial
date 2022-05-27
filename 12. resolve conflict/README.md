@@ -19,4 +19,12 @@ VD: ô A và B code trên 2 feature branch khác nhau nhưng lại cùng chỉnh
 ![](imgs/conflict-1.png) ![](imgs/conflict-2.png) ![](imgs/conflict-3.png)
 
 - quy tắc: conflict trên branch nào thì chủ branch đó sẽ đi fix (trong ví dụ này là `feature/resolve-using-rebase-2`).
-- checkout sang feature/resolve-using-rebase-2:
+- checkout sang feature/resolve-using-rebase-2 và thực hiện rebase master:
+- lúc này nó sẽ hiên lên thông báo conflict
+  ![](imgs/resolve-rebase.png)
+- bh phải sửa file để khắc phục conflict và merge
+  ![](imgs/resolve-rebase-2.png)
+- tiếp theo, add file đã sửa mà chạy `git rebase --continue`
+- rebase sẽ thực hiện update lại commit cũ
+  ![](imgs/resolve-rebase-3.png)
+- Tóm lại: việc rebase thực hiện mang gốc của feature branch lắp vào đầu master
