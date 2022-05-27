@@ -13,4 +13,4 @@ When will conflicts happen?
   2. Resolve conflict
   3. Commit and push
 
-## Resolve conflict sử dụng rebase (test rebase)
+## Resolve conflict sử dụng
