@@ -27,5 +27,5 @@ Giải thích: Trong project có nhiều công việc nhỏ đc phân cho từng
   ![](imgs/pull-request-4.png)
 
 - các thành viên vào review lần nữa, mọi thì ok thì chủ branch master `merge pull request` thôi =))
-- Kết quả, mỗi khi merge một feature branch về master branch thì nó sẽ tạo ra một merge commit và bỏ vào master branch.
+- Kết quả, mỗi khi merge một feature branch về master branch sử dụng pull request thì nó sẽ tạo ra một merge commit và bỏ vào master branch.
   ![](imgs/pull-request-5.png)
