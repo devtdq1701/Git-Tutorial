@@ -11,3 +11,7 @@ Cách để làm việc nhóm = pull request:
 // 5. merge to master
 
 Giải thích: Trong project có nhiều công việc nhỏ đc phân cho từng thành viên. Thông thường với mỗi công việc sẽ tạo 1 branch riêng, làm việc trên đó rồi push branch đó lên github. Trên github, chủ branch đó sẽ tạo **pull request** vào **master**, sau đó các member sẽ review code, khi k có vấn đề gì sẽ thực hiện merge vào nhánh master.
+
+## Chi tiết cách thực hiện
+
+1. Trên feature tách ra từ base brach (thường là master) tiến hành push brach lên github
