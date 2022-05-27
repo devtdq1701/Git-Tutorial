@@ -14,4 +14,13 @@ Giải thích: Trong project có nhiều công việc nhỏ đc phân cho từng
 
 ## Chi tiết cách thực hiện
 
-1. Trên feature tách ra từ base brach (thường là master) tiến hành push brach lên github
+- Trên feature tách ra từ base brach (thường là master) tiến hành push brach lên github
+  ![](imgs/pull-request-1.png)
+
+- Trên github.com, Ng chủ của branch tạo pull request (vào master) để các thành viên cùng review code
+  ![](imgs/pull-request-3.png)
+
+- 1 pull request open, các thành viên có thể vào review code online và submit review:
+  ![](imgs/review-code-1.png) -> ![](imgs/review-code-2.png)
+
+- chủ branch tạo pull request vào xem và tiến hành chỉnh sửa lại theo review:
