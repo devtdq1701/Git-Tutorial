@@ -19,7 +19,7 @@ git branch -a
 
 _Chú ý_: dấu \* bên cạnh chỉ branch hiện tại
 
-- tạo một nhánh mới (rỗng):
+- tạo một nhánh mới:
 
 ```
 git branch <newbranch>
@@ -31,7 +31,7 @@ git branch <newbranch>
 git branch <branchName> --edit-description
 ```
 
-- tạo 1 branch dựa trên current branch (bao gồm commit) và chuyển sang branch đó:
+- tạo 1 branch dựa trên current branch (bao gồm commit) và chuyển sang branch đó (git branch + git switch):
 
 ```
 git checkout -b <newbranch>
