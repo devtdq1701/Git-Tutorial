@@ -23,4 +23,9 @@ Giải thích: Trong project có nhiều công việc nhỏ đc phân cho từng
 - 1 pull request open, các thành viên có thể vào review code online và submit review:
   ![](imgs/review-code-1.png) -> ![](imgs/review-code-2.png)
 
-- chủ branch tạo pull request vào xem và tiến hành chỉnh sửa lại theo review:
+- chủ branch tạo pull request vào xem và tiến hành chỉnh sửa lại theo review và push:
+  ![](imgs/pull-request-4.png)
+
+- các thành viên vào review lần nữa, mọi thì ok thì chủ branch master `merge pull request` thôi =))
+- Kết quả, mỗi khi merge một feature branch về master branch thì nó sẽ tạo ra một merge commit và bỏ vào master branch.
+  ![](imgs/pull-request-5.png)
