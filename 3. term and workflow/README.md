@@ -101,7 +101,7 @@ VD: 1 repo được lưu trên cả github.com và gitlab.com. => repo có 2 rem
 **2. Staging area**
 
 - khi sử dụng `git add`, các file đang thay đổi (màu đỏ) ở Working dir sẽ đc add vào Staging area (màu xanh)
-- unstage ra khỏi Staging area (màu xanh): `git restore --staged <file>` hoặc `git reset <file>` (`git reset HEAD <file>`)6
+- unstage ra khỏi Staging area (màu xanh): `git restore --staged <file>` hoặc `git reset <file>` (`git reset HEAD <file>`)
 
 **3. Repository**
 
